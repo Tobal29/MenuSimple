@@ -5,6 +5,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         String opcion;
+
         do{
             System.out.println("================================");
             System.out.println("Ingrese una opcion:");
@@ -16,7 +17,6 @@ public class Main {
             opcion = scan.next();
 
                 switch (opcion){
-
                     case "1":
                         System.out.println("================================");
                         System.out.println("Menu 1: ");
@@ -49,3 +49,4 @@ public class Main {
         }while(!opcion.equals("0"));
     }
 }
+
